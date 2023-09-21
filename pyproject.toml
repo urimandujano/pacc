@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "pacc"
+version = "0.1.0"
+description = ""
+authors = ["Uriel Mandujano <uriel@prefect.io>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+black = "^23.9.1"
+ruff = "^0.0.289"
+mypy = "^1.5.1"
+prefect = "^2.13.1"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
